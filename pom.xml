@@ -27,6 +27,8 @@
                         <param>ipbhalle.de.**Test</param> 
                     </targetTests>
                     <testPlugin>junit5</testPlugin>
+                    <mutator>ALL</mutator>
+                    <mutator>EXPERIMENTAL</mutator>
                 </configuration>
             </plugin>
             <plugin>
